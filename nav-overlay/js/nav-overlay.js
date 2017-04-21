@@ -3,7 +3,7 @@ var ready = function(f) {
 	if(typeof f !== "function") return;
 
 	// if document has loaded all stylesheets, images, etc.
-	if(document.readyState === "complete")
+	if(document.readyState === "interactive" || document.readyState === "complete")
 		return f();
 
 	// else, wait for dom content to load
