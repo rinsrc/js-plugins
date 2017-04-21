@@ -11,10 +11,10 @@ var ready = function(f) {
 };
 
 ready(function() {
-	navRevealerJs();
+	navRevealer();
 });
 
-var navRevealerJs = (function() {
+var navRevealer = (function() {
 	// pxDelay determines how long nav will wait at top 
 	// before triggering navEffect (to hide, etc.)
 	var pxDelay = 500;
