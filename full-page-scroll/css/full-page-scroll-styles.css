@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+	font-family: Merriweather, sans-serif;
+	font-size: 100%;
+	color: #222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	background: #EEE;
+	width: 100vw;
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	max-width: 100vw;
+	height: 100vh;
+	text-align: center;
+	padding: 5%;
+	padding-top: 40vh;
+	background: #EEE;
+}
+
+header h1 {
+	font-size: 300%;
+	font-size: 10vh;
+	font-size: 10vmin;
+}
+
+header p {
+	font-size: 150%;
+	font-size: 7vh;
+	font-size: 7vmin;
+}
+
+footer {
+	padding: 10%;
+	background: yellow;
+}
+
+footer h1 {
+	font-size: 150%;
+	font-size: 7vh;
+	font-size: 7vmin;
+}
+
+footer p {
+	font-size: 150%;
+	font-size: 5vh;
+	font-size: 5vmin;
+}
+
+div.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.container h1 {
+	font-size: 150%;
+	font-size: 7vh;
+	font-size: 7vmin;
+}
+
+div.full-box {
+	width: 100%;
+	height: 100vh;
+	padding-top: 40vh;
+}
+
+div.full-box h1 {
+	text-align: center;
+}
+
+.box-1 {
+	background: #9b59b6;
+}
+
+.box-2 {
+	background: #f1c40f;
+}
+
+.box-3 {
+	background: #d35400;
+}
+
+.box-4 {
+	background: #2ecc71;
+}
