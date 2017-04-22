@@ -67,8 +67,6 @@ var viewportScroll = (function() {
 
 		e.addEventListener(transitionEnd, function() {
 			e2.classList.add(transitionClass);
-			
-			counter = 1;
 
 			if(!inViewport(box[11])) {
 				e2.classList.remove(transitionClass);
@@ -156,7 +154,7 @@ var viewportScroll = (function() {
 			window.attachEvent("onscroll", addClassAnimation());
 		}
 		else {
-			window.onscroll = addClassAnimation();
+			console.log("Unsupported event listeners.");
 		}
 	}
 
