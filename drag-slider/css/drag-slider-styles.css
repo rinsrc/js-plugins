@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+	font-family: Merriweather, sans-serif;
+	font-size: 100%;
+	color: #222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	background: #111;
+	width: 100vw;
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	max-width: 100vw;
+	height: 100vh;
+	text-align: center;
+	padding: 5%;
+	padding-top: 40vh;
+	background: #e74c3c;
+}
+
+header h1 {
+	font-size: 300%;
+	font-size: 10vh;
+	font-size: 10vmin;
+}
+
+header p {
+	font-size: 150%;
+	font-size: 7vh;
+	font-size: 7vmin;
+}
+
+div#drag-slider-container {
+	position: relative;
+	margin-top: 5%;
+	width: 100%;
+	width: 100vw;
+	max-width: 100%;
+	height: 500px;
+	height: 100vh;
+	background: none;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.ds-elem {
+	position: absolute;
+	width: 300px;
+	display: inline-block;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+div.ds-elem p {
+	font-size: 150%;
+	font-size: 7vh;
+	font-size: 7vmin;
+	text-align: center;
+	margin-top: 130px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.box-0 {
+	top: 20%;
+	height: 500px;
+	background: #e74c3c;
+}
+
+.box-1 {
+	top: 10%;
+	height: 620px;
+	background: #9A12B3;
+}
+
+.box-2 {
+	top: 0;
+	height: 430px;
+	background: #f1c40f;
+}
+
+.box-3 {
+	top: 25%;
+	height: 350px;
+	background: #e74c3c;
+}
+
+.box-4 {
+	height: 40%;
+	height: 600px;
+	background: #9A12B3;
+}
+
+.box-5 {
+	top: 15%;
+	height: 400px;
+	background: #f1c40f;
+}
+
+.no-focus-elem {
+	opacity: 0;
+}
+
+.focus-elem {
+	opacity: 1;
+}
