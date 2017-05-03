@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>svg-path-scroll</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+	<link rel="stylesheet" href="css/svg-path-scroll-styles.css">
+</head>
+
+<body>
+
+<header id="header">
+	<h1>svg-path-scroll</h1>
+	<p>JavaScript code that draws a SVG path when the user scrolls down.</p>
+</header>
+
+<div id="svg-container">
+	<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1500 2500">
+		<path id="svg-drawing"
+		d="
+		M 600,200 
+		C 0,200 700,300 600,800
+		S 0,400 600,1000
+		S 0,1000 1000,1000
+		S 100,1200 700,1500
+		S 600,1000 600,1800
+		S 0,2000 250,2000
+		S 0,1400 600,2000
+		S 1000,1500 600,2000
+		"/>
+	</svg>
+</div>
+
+<footer id="footer">
+	<h1>svg-path-scroll</h1>
+	<h1>look at those curves!</h1>
+</footer>
+
+</body>
+
+<script src="js/svg-path-scroll.js"></script>
+
+</html>
